@@ -51,6 +51,11 @@ Selection behavior is designed for usability:
 - Same KPI measures reused across all views, improving maintainability
 - Comparison visuals selectively ignore slicers where required to preserve analytical intent
 
+### Preview
+![Sales Performance](Screenshots/02a%20Sales%20Performance%20-%20Monthly.png)
+![Sales Performance](Screenshots/02b%20Sales%20Performance%20-%20Quarterly.png)
+![Sales Performance](Screenshots/02c%20Sales%20Performance%20-%20Yearly.png)
+
 ## Product Movement Overview
 
 The Product Movement Overview page is designed to analyze product-level performance by combining sales contribution, profit margin behavior, and movement velocity to support inventory and assortment decisions.
