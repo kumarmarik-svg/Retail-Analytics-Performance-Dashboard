@@ -100,6 +100,9 @@ Help business and supply chain teams identify fast-moving, slow-moving, and high
 - Matrix visual used as a drill-through alternative for disconnected segmentation
 - Measures dynamically recalculate contribution and cumulative values based on filter context
 
+### Preview
+![Product Movement](Screenshots/03%20Product%20Movement%20Overview.png)
+
 ## Product Deep Dive
 
 The Product Deep Dive page focuses on analyzing an individual product in depth by combining customer behavior, store-level dependency, return risk, profitability concentration, and inventory status.
@@ -153,6 +156,9 @@ Enable stakeholders to evaluate whether a product is healthy, risky, or over-dep
 - Same Top N pattern reused across visuals with different ranking measures for consistency and performance
 - Bubble charts used to combine dependency, risk, profit concentration, and volume in a single visual
 
+### Preview
+![Product Deep Dive](Screenshots/04%20Product%20Deep%20Dive.png)
+
 ## Customer Insight
 
 The Customer Insight page focuses on understanding customer health, value, profitability, and churn risk to support retention strategies, revenue growth, and customer segmentation decisions.
@@ -195,6 +201,9 @@ Provide a consolidated view of customer performance by combining engagement, lif
 - If no period is selected, the latest available period is automatically applied
 - If multiple periods are selected, the most recent period from the selection is used
 - Ensures consistent and intuitive period-based analysis across the page
+
+### Preview
+![Customer Insight](Screenshots/05%20Customer%20Insight.png)
 
 ## Store Performance
 
@@ -246,6 +255,11 @@ Enable stakeholders to identify top-performing and underperforming stores, compa
   - Store Segment views
 - Slicers enable filtering by Year, Month, Region, and Store
 - Informational tooltips guide users on segmentation logic and risk interpretation
+
+### Preview
+![Store Performance](Screenshots/06a%20Store%20Perfomance%20-%20Region%20Analysis.png)
+![Store Performance](Screenshots/06b%20Store%20Perfomance%20-%20Operational%20Metrics.png)
+![Store Performance](Screenshots/06c%20Store%20Perfomance%20-%20Store%20Segment.png)
 
 ## Inventory Overview
 
@@ -302,6 +316,10 @@ Enable stakeholders to monitor inventory health, identify overstock and slow-mov
 - Slicers enable filtering by Category and Subcategory
 - All visuals respond dynamically while maintaining analytical consistency
 - Informational tooltips explain inventory metrics and movement logic
+
+### Preview
+![Inventory](Screenshots/07a%20Inventory%20Overview%20-%20Supplier%20Insight.png)
+![Inventory](Screenshots/07b%20Inventory%20Overview%20-%20Risk%20&%20Valuvation.png)
 
 ## Return & Refund Analysis
 
@@ -377,6 +395,11 @@ Enable stakeholders to reduce return-related losses by identifying root causes, 
 - Financial impact measures aligned with sales and profit models
 - Designed to balance operational detail with executive-level clarity
 
+### Preview
+![Return & Refund](Screenshots/08a%20Return%20&%20Refund%20Analysis%20-%20Product%20Level.png)
+![Return & Refund](Screenshots/08b%20Return%20&%20Refund%20Analysis%20-%20Customer%20Level.png)
+![Return & Refund](Screenshots/08c%20Return%20&%20Refund%20Analysis%20-%20Store%20Level.png)
+
 ## Shipping Overview
 
 The Shipping Overview page provides a detailed view of logistics performance by combining shipment volume, delivery efficiency, cost behavior, geographic performance, and shipping risk into a single, interactive analysis.
@@ -444,6 +467,11 @@ Enable stakeholders to evaluate shipping efficiency, identify cost leakages, mon
 - All visuals respond dynamically while preserving analytical intent
 - Insight cards and informational tooltips guide interpretation of shipping metrics and risks
 
+### Preview
+![Shipping Overview](Screenshots/09a%20Shipping%20Overview%20-%20Method%20Level.png)
+![Shipping Overview](Screenshots/09b%20Shipping%20Overview%20-%20Geographic%20Level.png)
+![Shipping Overview](Screenshots/09c%20Shipping%20Overview%20-%20Profitablity%20Level.png)
+
 ## Manager Insight Overview
 
 The Manager Insight Overview page delivers an executive-ready narrative summary of business performance by translating analytical outcomes into concise, decision-oriented insights across sales, products, customers, and stores.
@@ -498,3 +526,9 @@ Provide leadership with a clear understanding of what happened, why it happened,
   - Zero filter dependency
   - Consistent storytelling experience
 - Designed purely for **decision consumption**, not data exploration
+
+### Preview
+![Manager Insight](Screenshots/10a%20Manager%20Insight%20Overview%20-%20Sales%20Summary.png)
+![Manager Insight](Screenshots/10b%20Manager%20Insight%20Overview%20-%20Product%20Summary.png)
+![Manager Insight](Screenshots/10c%20Manager%20Insight%20Overview%20-%20Customer%20Summary.png)
+![Manager Insight](Screenshots/10d%20Manager%20Insight%20Overview%20-%20Store%20Summary.png)
