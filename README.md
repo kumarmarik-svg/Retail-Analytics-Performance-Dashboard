@@ -257,9 +257,9 @@ Enable stakeholders to identify top-performing and underperforming stores, compa
 - Informational tooltips guide users on segmentation logic and risk interpretation
 
 ### Preview
-![Store Performance](Screenshots/06a%20Store%20Perfomance%20-%20Region%20Analysis.png)
-![Store Performance](Screenshots/06b%20Store%20Perfomance%20-%20Operational%20Metrics.png)
-![Store Performance](Screenshots/06c%20Store%20Perfomance%20-%20Store%20Segment.png)
+![Store Performance](Screenshots/06a%20Store%20Performance%20-%20Region%20Analysis.png)
+![Store Performance](Screenshots/06b%20Store%20Performance%20-%20Operational%20Metrics.png)
+![Store Performance](Screenshots/06c%20Store%20Performance%20-%20Store%20Segment.png)
 
 ## Inventory Overview
 
@@ -319,7 +319,7 @@ Enable stakeholders to monitor inventory health, identify overstock and slow-mov
 
 ### Preview
 ![Inventory](Screenshots/07a%20Inventory%20Overview%20-%20Supplier%20Insight.png)
-![Inventory](Screenshots/07b%20Inventory%20Overview%20-%20Risk%20&%20Valuvation.png)
+![Inventory](Screenshots/07b%20Inventory%20Overview%20-%20Risk%20&%20Valuation.png)
 
 ## Return & Refund Analysis
 
@@ -470,7 +470,7 @@ Enable stakeholders to evaluate shipping efficiency, identify cost leakages, mon
 ### Preview
 ![Shipping Overview](Screenshots/09a%20Shipping%20Overview%20-%20Method%20Level.png)
 ![Shipping Overview](Screenshots/09b%20Shipping%20Overview%20-%20Geographic%20Level.png)
-![Shipping Overview](Screenshots/09c%20Shipping%20Overview%20-%20Profitablity%20Level.png)
+![Shipping Overview](Screenshots/09c%20Shipping%20Overview%20-%20Profitability%20Level.png)
 
 ## Manager Insight Overview
 
