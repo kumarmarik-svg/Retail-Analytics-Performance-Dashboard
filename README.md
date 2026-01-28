@@ -12,8 +12,8 @@ Regional performance insights identify the most profitable region and the fastes
 
 Interactive slicers and bookmark-driven navigation allow users to dynamically filter the analysis by year, month, region, and category, enabling both high-level monitoring and contextual exploration without overwhelming the user.
 
-## Preview
-![01 Executive Summary](01 Executive Summary.png)
+### Executive Summary
+![Executive Summary](Screenshots/01%20Executive%20Summary.png)
 
 ## Sales Performance
 
