@@ -559,3 +559,14 @@ across sales, inventory context, returns, and shipping insights.
 
 ### Preview(start schema)
 ![Datamodelling](Screenshots/DataModelling.png)
+
+## PBIX Download
+
+Due to GitHub file size limitations, the Power BI (.pbix) file is hosted externally.
+
+🔗 **Download Power BI Dashboard (PBIX)**  
+https://drive.google.com/file/d/1O1zIurztpVMBrOfv5y-mbsf1LADDF0Gm/view
+
+**File size:** ~198 MB  
+**Tool:** Power BI Desktop  
+**Note:** Best viewed on desktop Power BI
