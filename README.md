@@ -532,3 +532,27 @@ Provide leadership with a clear understanding of what happened, why it happened,
 ![Manager Insight](Screenshots/10b%20Manager%20Insight%20Overview%20-%20Product%20Summary.png)
 ![Manager Insight](Screenshots/10c%20Manager%20Insight%20Overview%20-%20Customer%20Summary.png)
 ![Manager Insight](Screenshots/10d%20Manager%20Insight%20Overview%20-%20Store%20Summary.png)
+
+## Data Model Design
+
+The dashboard follows a star schema design centered around the Sales table as the primary fact.
+Core transactional measures such as revenue and profit are calculated directly from the Sales
+fact in combination with related dimensions such as Product, Customer, Store, and Date.
+
+Returns and shipping insights are modeled as one-to-one extensions of Sales using SalesID,
+allowing return behavior and logistics performance to be analyzed in direct transaction context
+without duplicating fact rows.
+
+Inventory data is modeled as an extension of the Product dimension with a one-to-one relationship.
+It is kept as a separate table purely for modeling clarity and usability, while functionally
+behaving as part of the Product dimension rather than an independent fact table.
+
+Budget and Target tables are modeled as reference dimensions using derived business keys.
+They provide planning and performance benchmark context for Sales analysis and are
+intentionally connected in a one-to-many relationship to the Sales table.
+
+Disconnected tables are intentionally used for time intelligence, segmentation (ABC analysis),
+and Top N logic to maintain calculation control and avoid ambiguous filter propagation.
+
+Relationship direction and filter behavior are carefully managed to ensure accurate aggregation
+across sales, inventory context, returns, and shipping insights.
