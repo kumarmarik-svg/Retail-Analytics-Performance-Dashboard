@@ -1,5 +1,8 @@
 # Retail Analytics Performance Dashboard
 
+A comprehensive end-to-end Power BI analytics project focused on Sales, Inventory, Customers,
+Returns, and Logistics, designed to mirror real-world retail decision-making and executive reporting.
+
 ## Executive Summary
 
 The Executive Summary page provides a high-level view of overall retail business performance, designed for senior management and decision-makers to quickly assess financial health and operational efficiency.
@@ -539,9 +542,7 @@ The dashboard follows a star schema design centered around the Sales table as th
 Core transactional measures such as revenue and profit are calculated directly from the Sales
 fact in combination with related dimensions such as Product, Customer, Store, and Date.
 
-Returns and shipping insights are modeled as one-to-one extensions of Sales using SalesID,
-allowing return behavior and logistics performance to be analyzed in direct transaction context
-without duplicating fact rows.
+Returns and Shipping are modeled as one-to-one transactional extensions of Sales using SalesID, preserving transaction-level granularity while avoiding fact duplication, allowing return behavior and logistics performance to be analyzed in direct transaction context without duplicating fact rows.
 
 Inventory data is modeled as an extension of the Product dimension with a one-to-one relationship.
 It is kept as a separate table purely for modeling clarity and usability, while functionally
@@ -566,6 +567,9 @@ Due to GitHub file size limitations, the Power BI (.pbix) file is hosted externa
 
 🔗 **Download Power BI Dashboard (PBIX)**  
 https://drive.google.com/file/d/1O1zIurztpVMBrOfv5y-mbsf1LADDF0Gm/view
+
+The PBIX file includes the full data model, DAX measures, relationships, and report pages
+exactly as described in this repository.
 
 **File size:** ~198 MB  
 **Tool:** Power BI Desktop  
