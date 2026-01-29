@@ -556,3 +556,6 @@ and Top N logic to maintain calculation control and avoid ambiguous filter propa
 
 Relationship direction and filter behavior are carefully managed to ensure accurate aggregation
 across sales, inventory context, returns, and shipping insights.
+
+### Preview(start schema)
+![Datamodelling](Screenshots/DataModelling.png)
